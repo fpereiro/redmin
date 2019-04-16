@@ -1,0 +1,28 @@
+{
+   "name": "redmin",
+   "version": "0.1.0",
+   "description": "Admin tool for redis.",
+   "dependencies": {
+      "dale":   "4.3.3",
+      "gotob":  "1.2.3",
+      "lith":   "4.5.3",
+      "redis":  "2.8.0",
+      "teishi": "3.13.2"
+   },
+   "main": "server.js",
+   "author": "Federico Pereiro <fpereiro@gmail.com>",
+   "contributors": ["Federico Pereiro <fpereiro@gmail.com>"],
+   "license": [{
+      "type": "Public Domain",
+      "url": "http://github.com/fpereiro/redmin#license"
+   }],
+   "keywords": ["redis", "admin", "web"],
+   "repository" : {
+      "type": "git",
+      "url": "http://github.com/fpereiro/redmin.git"
+   },
+   "bugs": {
+      "url": "http://github.com/fpereiro/redmin/issues",
+      "email": "fpereiro@gmail.com"
+   }
+}
