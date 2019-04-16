@@ -33,7 +33,7 @@ To connect redmin to your redis database, assign `redmin.redis` to your redis in
 
 ```javascript
 var redis  = require ('redis').createClient ();
-var redmin = require ('redmin);
+var redmin = require ('redmin');
 redmin.redis = redis;
 ```
 
