@@ -4,7 +4,7 @@ A web admin for redis.
 
 ## Current status of the project
 
-The current version of redmin, v0.1.0, is considered to be *experimental*. Please use it with caution. This status will hopefully change as I use the tool repeatedly and with growing confidence.
+The current version of redmin, v0.1.1, is considered to be *experimental*. Please use it with caution. This status will hopefully change as I use the tool repeatedly and with growing confidence.
 
 ## Installation
 
@@ -42,7 +42,7 @@ The following routes should only be accessible to admin users which are fully tr
 To serve the HTML for bootstrapping the redmin client in `GET /redmin` (could be any other route as well), serve the output of `redmin.html` - this function will generate an HTML page that will load redmin. The function can be invoked without arguments, or with an object with these parameters (all of them optional):
 
 - `pure`: path to PureCSS. Defaults to `https://unpkg.com/purecss@1.0.0/build/pure-min.css`.
-- `server`: path to make queries to redmin. Defaults to `/redmin`.
+- `server`: path to make queries to redmin. Defaults to `redmin`.
 - `gotob`: path to gotoB. Defaults to `redmin/gotoB.min.js`.
 - `client`: path to the redmin client. Defaults to `redmin/client.js`.
 

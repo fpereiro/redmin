@@ -1,5 +1,5 @@
 /*
-redmin - v0.1.0
+redmin - v0.1.1
 
 Written by Federico Pereiro (fpereiro@gmail.com) and released into the public domain.
 
@@ -78,7 +78,7 @@ redmin.html = function (i) {
             ['link', {rel: 'stylesheet', href: i.pure || 'https://unpkg.com/purecss@1.0.0/build/pure-min.css'}],
          ]],
          ['body', [
-            ['script', 'var AJAXPATH = "' + (i.server || '/redmin') + '";'],
+            ['script', 'var AJAXPATH = "' + (i.server || 'redmin') + '";'],
             ['script', {src: i.gotob  || 'redmin/gotoB.min.js'}],
             ['script', {src: i.client || 'redmin/client.js'}]
          ]]
